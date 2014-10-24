@@ -4,9 +4,10 @@ An awesome replacement for JavaScript's alert by Tristan Edwards.
 
 #Tweaks
 
-* Added option for Sweet Alert to be used as a wait dialog by passing a string "none" 
-to the `confirmButtonText` parameter. The dialog can be ended by calling the method 
+* Added feature for Sweet Alert to be used as a wait dialog by passing using setting the option `waitDialog` to 'true'. The dialog can be ended by calling the method 
 `swalCloseModal()`.
+
+* Added feature for Sweet Alert to include HTML code in its buttons, set `allowHTML` to 'true' and pass HTML code to the `confirmButtonText` option.
 
 * Fixed bug where the Tab key would stop navigating the web page when two 
 SweetAlert dialogs are opened.
